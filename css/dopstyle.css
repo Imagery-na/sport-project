@@ -1,0 +1,44 @@
+/*������ �����*/
+#body {
+background-color: #C0E39C;
+
+}
+.head-block{
+	height:120px;
+	background:url(../images/head3.jpg)center center no-repeat;
+  text-align: center;
+	font: italic bolder 2.3em Segoe Print;
+	color: #E9DD25;
+	text-shadow: #0B3C19 3px 3px 5px;
+}
+.head-block p{
+	font: bolder 60% Segoe Print;
+
+}
+.top-menu{
+	background:#C8EA8A;
+
+}
+.top-menu ul{
+	text-align: center;
+	padding-left:0;
+	margin-bottom:0;
+	color: green;
+}
+.top-menu li{
+	display:inline-block;
+	margin-left:10px;
+	padding:3px 20px;
+	color: green;
+	font: bolder 150% Segoe Print;
+	}
+a {
+	color: green;
+}
+.top-material {
+background-color: #DCF3B4;
+}
+.Video{
+width: 100%;
+height: 100%;
+}
