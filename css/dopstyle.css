@@ -1,23 +1,34 @@
 /*������ �����*/
-#body {
-background-color: #C0E39C;
-
+.container {
+background-color: #E8F4A4;
+}
+h5, h4 {text-align: center;}
+h1{
+	font: 25px Segoe Print;
+	color: green;
+	text-align: center;
 }
 .head-block{
-	height:120px;
+	height:15%;
 	background:url(../images/head3.jpg)center center no-repeat;
   text-align: center;
-	font: italic bolder 2.3em Segoe Print;
-	color: #E9DD25;
-	text-shadow: #0B3C19 3px 3px 5px;
+	font: italic bolder 100% Segoe Print;
+	font-size: 3vw;
+	color: green;
+	text-shadow: white 3px 3px 5px;
 }
 .head-block p{
 	font: bolder 60% Segoe Print;
-
+	color: green;
+}
+#emblema{
+	width: 18%;
+	position: absolute;
+	top: 8%;
+	left:80%;
 }
 .top-menu{
-	background:#C8EA8A;
-
+	background:#CDE56C;
 }
 .top-menu ul{
 	text-align: center;
@@ -35,10 +46,45 @@ background-color: #C0E39C;
 a {
 	color: green;
 }
+a:hover{
+	color: #CCC014;}
+ul{
+	list-style-image:url(../images/star2.gif);
+	}
 .top-material {
-background-color: #DCF3B4;
+	background-color: #E8F4A4;
+	font-size: 15px;
 }
+.info{
+	font-size: 17px;
+}
+.gallery{
+	border-top: 3px solid green;
+  padding-bottom: 15px;
+	padding-top: 15px;
+}
+
 .Video{
-width: 100%;
-height: 100%;
+border: 3px solid green;
+}
+.Photos{
+	width: 100%;
+	border: 3px solid green;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.music{
+	border: 4px solid green;
+	border-radius: 30px;
+	max-width: 100%;
+}
+
+.foto1{
+	width: 47%;
+	float:left;
+}
+
+.foto2{
+	width: 47%;
+  float: right;
 }
