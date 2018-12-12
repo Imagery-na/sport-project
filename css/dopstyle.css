@@ -66,6 +66,7 @@ ul{
 
 .Video{
 border: 3px solid green;
+margin:0 auto;
 }
 .Photos{
 	width: 90%;
@@ -89,4 +90,23 @@ border: 3px solid green;
 .foto2{
 	width: 47%;
   float: right;
+}
+.centerTest{
+	text-align: center;
+  padding: 2%;
+	font-size: 18px;
+	min-height: 450px;
+	margin-left:5%;
+}
+#pole{
+	border: 2px solid green;
+}
+#button{
+	border: 3px solid green;
+	background:#CDE56C;
+	font: bolder 20px Segoe Print;
+}
+#button:hover{
+	background:green;
+	box-shadow: black 3px 3px 5px;
 }
