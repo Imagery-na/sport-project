@@ -110,3 +110,16 @@ margin:0 auto;
 	background:green;
 	box-shadow: black 3px 3px 5px;
 }
+@media (max-width: 600px) {
+	.head-block{
+		height:30%;
+		font-size: 8vw;
+	}
+	.head-block p{
+		font-size: 6vw;
+		color: green;
+	}
+	.head-block img{
+		display: none;
+	}
+}
